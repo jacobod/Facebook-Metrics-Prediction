@@ -16,9 +16,9 @@ I analyzed the UCI facebook metrics dataset and built 2 models to predict how ma
 ## Results
 The Linear Regression Model was tuned for robustness, yet the best R-squared value for test was 0.15, with 0.20 on the training set. 
 
-The Random Forest Model overfit, and I was unable to achieve a psuedo-R-squared value above .13. Correlation metrics (Spearman, Pearson) had similar drops between training score and test score. 
+The Random Forest Model overfit, and I was unable to achieve a R-squared test value above .13. Correlation metrics (Spearman, Pearson) had similar drops between training score and test score. 
 
-Thus, the Linear Regression model outperformed the Random Forest, yet neither model is close to a adequately performing production model. This suggests that the information in this dataset does not contain enough useful information.
+The Linear Regression model modestly outperformed the Random Forest model, yet neither could be a suitably performing production model. This suggests that the information in this dataset does not contain enough useful information. 
 
 ## Source:
 https://archive.ics.uci.edu/ml/datasets/Facebook+metrics
