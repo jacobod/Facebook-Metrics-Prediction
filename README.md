@@ -1,7 +1,11 @@
 # FacebookLikePrediction
 I analyzed the UCI facebook metrics dataset and built 2 models: 
+   
     1. Predict how many likes a post will have based on features in dataset
+    
     2. Predict how many lifetime users a post will engage
+    
+There are 2 project notebooks, each following the below structure. The first is the like prediction model, and the second is for the lifetime engaged users model. 
 
 ## Project Structure
 1. Project Question and Dataset Description
