@@ -1,4 +1,4 @@
-# FacebookLikePrediction
+# Facebook Post Metrics Prediction
 I analyzed the UCI facebook metrics dataset and built 2 models: 
    
     1. Predict how many likes a post will have based on features in dataset
