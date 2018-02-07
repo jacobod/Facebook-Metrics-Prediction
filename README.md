@@ -23,17 +23,17 @@ There are 2 project notebooks, each following the below structure. The first is 
 
 ### Like Prediction Model
 
-The Linear Regression Model was tuned for robustness, yet the best R-squared value for test was 0.15, with 0.20 on the training set. 
+The linear regression Model was tuned for robustness, yet the best R-squared value for test was 0.15, with 0.20 on the training set. 
 
-The Random Forest Model overfit, and I was unable to achieve a R-squared test value above .13. Correlation metrics (Spearman, Pearson) had similar drops between training score and test score. 
+The Random Forest model overfit, and I was unable to achieve a R-squared test value above .13. Correlation metrics (Spearman, Pearson) had similar drops between training score and test score. 
 
-The Linear Regression model modestly outperformed the Random Forest model, yet neither could be a suitably performing production model. This suggests that the information in this dataset does not contain enough useful information. 
+The linear regression model modestly outperformed the Random Forest model, yet neither could be a suitably performing production model. This suggests that the information in this dataset does not contain enough useful information. 
 
 ### Lifetime Engaged Users Model
 
-The Lifetime Engaged Users model included the same variables and modeling process as the Like Prediction Model, but saw the addition of the total interactions feature (likes + comments + shares). Using a linear regression model as a benchmark, the model reached a R^2 value of .683 for the test data vs. .646 in the train data. 
+The Lifetime Engaged Users model included the same variables and modeling process as the Like Prediction model, but saw the addition of the total interactions feature (likes + comments + shares). Using a linear regression model as a benchmark, the model reached a R^2 value of .683 for the test data vs. .646 in the train data. 
 
-The final tuned Random Forest regression Model performed higher than the benchmarked linear regression, with R^2 values of .72 on the test dataset vs. .75 for the train dataset, with high correlation metrics (test Spearmans Correlation value = .868).
+The final tuned Random Forest regression model performed higher than the benchmarked linear regression, with R^2 values of .72 on the test dataset vs. .75 for the train dataset, with high correlation metrics (test Spearmans Correlation value = .868).
 
 ## Conclusion
 
